@@ -16,8 +16,8 @@ export function AmbedkarPhotoSection() {
     }>
   >([])
 
-  const defaultBackgroundUrl = "/placeholder.svg?height=1080&width=1920"
-  const fallbackBackgroundUrl = "/placeholder.svg?height=1080&width=1920"
+  const defaultBackgroundUrl = "https://ibb.co/XrKK6v8F"
+  const fallbackBackgroundUrl = "https://ibb.co/XrKK6v8F"
   const defaultPopupUrl = "/placeholder.svg?height=80&width=80"
   const fallbackPopupUrl = "/placeholder.svg?height=80&width=80"
 
