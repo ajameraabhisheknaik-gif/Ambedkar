@@ -8,7 +8,7 @@ interface AmbedkarPortraitProps {
 export function AmbedkarPortrait({ animationPhase }: AmbedkarPortraitProps) {
   const [imageError, setImageError] = useState(false)
 
-  const defaultImageUrl = "/placeholder.svg?height=220&width=220"
+  const defaultImageUrl = "https://scontent.fvga1-2.fna.fbcdn.net/v/t1.15752-9/550436770_1339818940874014_1177510279035325013_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DAVx8TT7uvMQ7kNvwEa9SlY&_nc_oc=AdmAjwm4gIwJhH7PlAzaqK9EcJW2ys2EaqMF7pPf0usvz4lGDvGOnzVFk7pKQtkahv_Gp_KaLkPCxA998RdwKIiF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fvga1-2.fna&oh=03_Q7cD3QFMFaMr-oYpyU-IV-08-zUPBifyauOvFlbG3Kkm388F1A&oe=68F651E0"
   const fallbackImageUrl = "/placeholder.svg?height=220&width=220"
 
   return (
